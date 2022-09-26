@@ -1,0 +1,42 @@
+List of main commands:
+
+rm -rf/ : NEVER USER // Remove every directory and files.
+
+cat : Read and show the console the text inside of the file. If digit more files, command 		concatenate files. (ex.: cat file.txt file2.txt).
+To concatenate files and join both create new file: (ex.: cat file.txt file2.txt > file3.txt)
+cat -n (name file with format) : Numbers the lines the file.
+cat > (name file with format) : Create new file with box to digit dates. To finish press ctrl + c.
+
+cd : Change Directory.
+cd.. : Go back to previous directory.
+
+clear: Clear console.
+
+cp : Copy file (ex.: cp file1.txt file2.txt)
+cp -r : Copy dir
+
+history: Show historic the codes typeds on console.
+
+ls : Checking the atuals files of diretory (list of items).
+ls -l : Detailed listing.
+ls -a : Show hidden files.
+ls -la : Show hidden files in detailed listing.
+ls -lh : Show the height the file in an easy mode.
+ls -ltr : Show detailed listing sorted by modification date.
+
+mkdir : Create new directory (ex.: mkdir Lucas).
+mkdir -p: Alloe to create new directory inside other directory (ex.: mkdir -p Lucas/file2).
+mkdir -v: Create new directory with info about file created. (ex.: mkdir -v Lucas).
+
+mv : Move files to where you choice. Equal the ctrl + x.
+mv (dir)/* - Move all content to new dir (ex.: mv Lucas/* Lucas2).
+
+rm : Remove file.
+rm -d : Remove directory empty.
+rm -i : Remove file with at sure.
+rm -rf : Remove directory.
+rmdir : Remove directory empty.
+rmdir -p: Remove directory with files.
+
+touch : Create file (ex.: touch test.text).
+
